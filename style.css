@@ -7,6 +7,7 @@ body{
     max-width: 1280px;
     margin: 0 auto;
     cursor: pointer;
+    padding: 40px;
 }
 :root {
   --Soft-orange: hsl(35, 77%, 62%);
@@ -73,8 +74,11 @@ body{
     color: var(--Soft-orange);
 
 }
-.container h1{
-    /* font-weight: 900; */
+.heading{
+    
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 40px;
     
 }
 .firstbox{
@@ -82,6 +86,11 @@ body{
 
     
 }
+.content{
+   /* line-height: 10px; */
+   letter-spacing: 2px;
+}
+
 .secondbox {
   /* height: 450px; */
   background-color: var(--Very-dark-blue);
@@ -113,7 +122,7 @@ body{
 }
 .outer {
   display: flex;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 .innerimg {
   /* width: 50px; */
@@ -126,7 +135,7 @@ body{
 }
 .wrapper p{
     padding-bottom: 20px;
-    padding-right: 60px;
+    padding-right: 80px;
     line-height: 25px;
     padding-top: 15px;
     color: var(--Dark-grayish-blue);
